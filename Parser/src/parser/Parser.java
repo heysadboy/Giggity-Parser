@@ -42,7 +42,11 @@ public class Parser {
 
         int i, j;
 
-        for (i = 0; i < 1; i++) {
+        ArrayList<Session> sessions = new ArrayList<>();
+
+        for (i = 0; i < array.size(); i++) {
+
+            ArrayList<Speaker> speaker_list = new ArrayList<>();
 
             JSONObject session = (JSONObject) array.get(i);
             String title = session.get("title").toString();
@@ -51,12 +55,29 @@ public class Parser {
             String l_abst = session.get("long_abstract").toString();
             String start_time = session.get("start_time").toString();
             String end_time = session.get("end_time").toString();
+            String str = start_time.substring(8, 10);
+            String day = "4";
+
+            switch (str) {
+                case "18":
+                    day = "1";
+                    break;
+                case "19":
+                    day = "2";
+                    break;
+                case "20":
+                    day = "3";
+                    break;
+            }
 
             start_time = start_time.substring(11);
             end_time = end_time.substring(11);
 
             JSONObject session_type = (JSONObject) session.get("session_type");
             String s_type = session_type.get("name").toString();
+
+            JSONObject session_track = (JSONObject) session.get("track");
+            String t_name = session_track.get("name").toString();
 
             JSONObject mic_loc = (JSONObject) session.get("microlocation");
             String loc_name = mic_loc.get("name").toString();
@@ -65,9 +86,11 @@ public class Parser {
 
             for (j = 0; j < speakers.size(); j++) {
                 JSONObject speaker = (JSONObject) speakers.get(j);
-                ArrayList<String> speaker_list = new ArrayList<String>();
-                speaker_list.add(speaker.get("name").toString());
-                System.out.println(speaker_list.get(0));
+
+                Speaker si = new Speaker();
+                si.setName(speaker.get("name").toString());
+                si.setId(speaker.get("id").toString());
+                speaker_list.add(si);
             }
 
             String language = null;
@@ -90,9 +113,31 @@ public class Parser {
             if (session.get("slides") != null) {
                 slides = session.get("slides").toString();
             }
-            System.out.println(loc_name);
+
+            Session s = new Session();
+            s.setAbst(s_abst);
+            s.setDay(day);
+            s.setAudio(audio);
+            s.setDescr(l_abst);
+            s.setDuration(start_time, end_time);
+            s.setEvent(id);
+            s.setLanguage(language);
+            s.setRoom(loc_name);
+            s.setSlides(slides);
+            s.setSpeakers(speaker_list);
+            s.setStart(start_time);
+            s.setTrack(t_name);
+            s.setType(s_type);
+            s.setVideo(video);
+            s.setTitle(title);
+            s.setId(id);
+            sessions.add(s);
         }
 
+        Locations l = new Locations();
+        ArrayList<String> locations = l.getLocations();
+
+        XMLGenerator x = new XMLGenerator(locations, sessions);
     }
 
 }

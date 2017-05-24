@@ -1909,7 +1909,7 @@
 				<duration>00:30:00</duration>
 				<room>Ground Floor, Scientist For a day, Hall A</room>
 				<slug></slug>
-				<title>Master of Science Technopreneurship & Innovation Programme (MSc TIP)</title>
+				<title>Master of Science Technopreneurship and Innovation Programme (MSc TIP)</title>
 				<subtitle/>
 				<track>Exhibition</track>
 				<type>Exhibition Area</type>
@@ -2454,7 +2454,7 @@
 				<duration>00:70:00</duration>
 				<room>Dalton Hall</room>
 				<slug></slug>
-				<title>My journey in FOSS with Pharo & FOSSASIA</title>
+				<title>My journey in FOSS with Pharo and FOSSASIA</title>
 				<subtitle/>
 				<track>OpenTech and IoT</track>
 				<type>Lightning Talk</type>
@@ -4314,7 +4314,7 @@
 				<duration>00:70:00</duration>
 				<room>Eco Garden Lab</room>
 				<slug></slug>
-				<title>Tizen - An open platform for consumer electronics - What is it & what do you want it to be</title>
+				<title>Tizen - An open platform for consumer electronics - What is it and what do you want it to be</title>
 				<subtitle/>
 				<track>Hardware and IoT</track>
 				<type>Workshop of 1 hour</type>
@@ -4833,7 +4833,7 @@
 				<duration>00:70:00</duration>
 				<room>Faraday Lab</room>
 				<slug></slug>
-				<title>Mozilla on Connected Devices, MozVR & Firefox Developer Tools</title>
+				<title>Mozilla on Connected Devices, MozVR and Firefox Developer Tools</title>
 				<subtitle/>
 				<track>WebTech</track>
 				<type>Talk of 20 minutes</type>
@@ -7257,7 +7257,7 @@
 				<duration>00:70:00</duration>
 				<room>Eco Garden Lab</room>
 				<slug></slug>
-				<title>Tizen - An open platform for consumer electronics - What is it & what do you want it to be</title>
+				<title>Tizen - An open platform for consumer electronics - What is it and what do you want it to be</title>
 				<subtitle/>
 				<track>Hardware and IoT</track>
 				<type>Workshop of 1 hour</type>
@@ -7740,7 +7740,7 @@
 				<duration>00:30:00</duration>
 				<room>Ground Floor, Scientist For a day, Hall A</room>
 				<slug></slug>
-				<title>Master of Science Technopreneurship & Innovation Programme (MSc TIP)</title>
+				<title>Master of Science Technopreneurship and Innovation Programme (MSc TIP)</title>
 				<subtitle/>
 				<track>Exhibition</track>
 				<type>Exhibition Area</type>
@@ -8035,7 +8035,7 @@
 				<duration>00:30:00</duration>
 				<room>Dalton Hall</room>
 				<slug></slug>
-				<title>Science Hack Day - Winning teams announced & given awards/medals in main hall</title>
+				<title>Science Hack Day - Winning teams announced and given awards/medals in main hall</title>
 				<subtitle/>
 				<track>OpenTech and IoT</track>
 				<type>Presentations</type>
@@ -9866,7 +9866,7 @@
 				<duration>00:70:00</duration>
 				<room>Planck Lab</room>
 				<slug></slug>
-				<title>Concurrency & Parallelism  in Ruby</title>
+				<title>Concurrency and Parallelism  in Ruby</title>
 				<subtitle/>
 				<track>DevOps</track>
 				<type>Talk of 20 minutes</type>
@@ -10051,7 +10051,7 @@
 				<duration>00:70:00</duration>
 				<room>Planck Lab</room>
 				<slug></slug>
-				<title>Agile Application delivery with Containers & Cloud-Native tools</title>
+				<title>Agile Application delivery with Containers and Cloud-Native tools</title>
 				<subtitle/>
 				<track>DevOps</track>
 				<type>Talk of 20 minutes</type>
@@ -10976,7 +10976,7 @@
 				<duration>00:70:00</duration>
 				<room>Herschel Lab</room>
 				<slug></slug>
-				<title>Unlocking New Big Data Insights with Hadoop & MySQL </title>
+				<title>Unlocking New Big Data Insights with Hadoop and MySQL </title>
 				<subtitle/>
 				<track>Databases</track>
 				<type>Talk of 20 minutes</type>
@@ -11100,7 +11100,7 @@
 				<duration>00:70:00</duration>
 				<room>Herschel Lab</room>
 				<slug></slug>
-				<title>Powering IoT with MySQL & JSON</title>
+				<title>Powering IoT with MySQL and JSON</title>
 				<subtitle/>
 				<track>Databases</track>
 				<type>Workshop of 1 hour</type>
@@ -11726,7 +11726,7 @@
 				<duration>00:30:00</duration>
 				<room>Tinkering Studio</room>
 				<slug></slug>
-				<title>Winning teams announced & given awards/medals in Main Hall</title>
+				<title>Winning teams announced and given awards/medals in Main Hall</title>
 				<subtitle/>
 				<track>Science Hack Day</track>
 				<type>Presentations</type>
@@ -12525,7 +12525,7 @@
 				<duration>00:30:00</duration>
 				<room>Ground Floor, Scientist For a day, Hall A</room>
 				<slug></slug>
-				<title>Master of Science Technopreneurship & Innovation Programme (MSc TIP)</title>
+				<title>Master of Science Technopreneurship and Innovation Programme (MSc TIP)</title>
 				<subtitle/>
 				<track>Exhibition</track>
 				<type>Exhibition Area</type>
